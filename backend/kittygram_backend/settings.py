@@ -6,13 +6,13 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 
 SECRET_KEY = os.getenv('SECRET_KEY', default='secret_key')
 
-# DEBUG = os.getenv('DEBUG', default=False) == True
+DEBUG = os.getenv('DEBUG', default=False) == True
 
-DEBUG = True
+# DEBUG = True
 
-# ALLOWED_HOSTS = os.getenv('ALLOWED_HOSTS', '').split(',')
+ALLOWED_HOSTS = os.getenv('ALLOWED_HOSTS', '').split(' ')
 
-ALLOWED_HOSTS = ['158.160.67.222', '127.0.0.1:9000', 'localhost', 'kitty.viewdns.net']
+# ALLOWED_HOSTS = ['158.160.67.222', '127.0.0.1:9000', 'localhost', 'kitty.viewdns.net']
 
 INSTALLED_APPS = [
     'django.contrib.admin',
