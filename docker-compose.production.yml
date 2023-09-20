@@ -12,7 +12,7 @@ services:
     volumes:
       - pg_data:/var/lib/postgres/data
   backend:
-    image: "pgphil86/kittygram_backend:latest"
+    image: pgphil86/kittygram_backend
     env_file: .env
     depends_on:
       - db
@@ -20,14 +20,14 @@ services:
       - static:/backend_static
       - media:/app/media/
   frontend:
-    image: "pgphil86/kittygram_frontend:latest"
+    image: pgphil86/kittygram_frontend
     env_file: .env
     command: cp -r /app/build/. /static/
     volumes:
       - static:/static
       - media:/app/media
   gateway:
-    image: "pgphil86/kittygram_gateway:latest"
+    image: pgphil86/kittygram_gateway
     env_file: .env
     volumes:
       - static:/static
