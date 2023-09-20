@@ -14,8 +14,8 @@ services:
   backend:
     build: ./backend/
     env_file: ./backend/kittygram_backend/.env
-    depends_on:
-      - db
+#    depends_on:
+#      - db
     volumes:
       - static:/backend_static
       - media:/app/media
