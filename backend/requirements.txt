@@ -10,5 +10,5 @@ pytest-django==4.4.0
 pytest-pythonpath==0.7.3
 PyYAML==6.0
 python-dotenv
-dotenv
+python-dotenv[cli]
 gunicorn==20.1.0
