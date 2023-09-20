@@ -6,8 +6,8 @@ https://github.com/pgphil86
 ![image](https://img.shields.io/badge/Python-FFD43B?style=for-the-badge&logo=python&logoColor=blue)
 
 ### Languages:
-### I. [Русский язык.]()
-### II. [English language.]()
+### I. [Русский язык.](https://github.com/pgphil86/kittygram_final/tree/main#i-проект-kittygram)
+### II. [English language.](https://github.com/pgphil86/kittygram_final/tree/main#ii-project-kittygram)
 
 ## I. Проект "Kittygram".
 
@@ -112,7 +112,7 @@ https://kitty.viewdns.net/cats/add
 *Страница с объектом:*
 https://kitty.viewdns.net/cats/pk
 
-[Вверх]()
+[Вверх](https://github.com/pgphil86/kittygram_final/tree/main#kittygram-created-by-pavel)
 
 ## II. Project "Kittygram"
 
@@ -216,5 +216,5 @@ https://kitty.viewdns.net/cats/add
 *The page with the object:*
 https://kitty.viewdns.net/cats/pk
 
-[Up]()
+[Up](https://github.com/pgphil86/kittygram_final/tree/main#kittygram-created-by-pavel)
 
